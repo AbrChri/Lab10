@@ -3,7 +3,7 @@
 #### Argomenti
 
 - Utilizzo di Grafi
-- Utilizzo della libreria [NetworkX](https://networkx.org/)
+- Utilizzo della libreria [NetworkX](https://networkx.org/) (suggerita v3.5)
 
 ---
 > **❗ ATTENZIONE:**
