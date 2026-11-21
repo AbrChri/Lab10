@@ -91,7 +91,7 @@ Nel progetto di base, l'interfaccia grafica (file `view.py`) è già implementat
 ![esempio.png](img/esempio.png)
 
 ## 💡 Suggerimenti Pratici
-- Tutta la documentazione della libreria `NetworkX` è disponibile al seguente link: [`networkx_documentazione`](https://networkx.org/documentation/stable/#python).
+- Tutta la documentazione della libreria `NetworkX` è disponibile al seguente link: [`networkx_documentazione`](https://networkx.org/documentation/networkx-3.5/).
 - Per quanto riguarda la risoluzione del **punto 2** tramite query complessa potrebbero essere utili le funzioni
 (cliccare per accedere alla documentazione):
 [`LEAST()`](https://www.w3schools.com/sql/func_mysql_least.asp) e
