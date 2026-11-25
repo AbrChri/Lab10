@@ -16,4 +16,15 @@ class Controller:
         * Numero di Collegamenti
         * Lista di Collegamenti che superano l'importo indicato come soglia
         """
-        # TODO
+        (num_edges, num_nodi, edges, nodi, filiali) = self._model.costruisci_grafo(self._view.importo_medio_minimo.value)
+
+
+        self._view.lista_visualizzazione.controls.clear()
+        self._view.lista_visualizzazione.controls.append(ft.Text(f"Numero di filiali {num_nodi}.\n"
+                                                                 f"Numero di collegamenti {num_edges}."))
+        i = 0
+        for n in edges:
+            i = i+1
+            self._view.lista_visualizzazione.controls.append(ft.Text(f"{i}) {filiali[n[0]]} --- {filiali[n[1]]}: importo medio {edges[n]:.2f}"))
+
+        self._view.update()
